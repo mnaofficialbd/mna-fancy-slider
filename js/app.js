@@ -69,7 +69,6 @@ const createSlider = () => {
     // hide image aria
     imagesArea.style.display = 'none';
     const duration = document.getElementById('duration').value || 1000;
-    // console.log(duration)
 
     sliders.forEach(slide => {
         let item = document.createElement('div')
